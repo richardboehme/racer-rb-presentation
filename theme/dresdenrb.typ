@@ -197,6 +197,7 @@
         set text(font: "Montserrat")
         set strong(delta: 50)
         set par(spacing: 0.14in, leading: 1.1em)
+        show list: set text(18pt)
         show figure.caption: set text(size: 14pt, fill: self.colors.neutral)
         show footnote.entry: set text(size: 12pt, fill: self.colors.neutral)
 

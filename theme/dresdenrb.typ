@@ -194,10 +194,11 @@
     ),
     config-methods(
       init: (self: none, body) => {
-        set text(font: "Montserrat")
+        set text(font: "Montserrat", size: 18pt)
         set strong(delta: 50)
         set par(spacing: 0.14in, leading: 1.1em)
-        show list: set text(18pt)
+        show list: set block(spacing: 1em)
+        show enum: set block(spacing: 1em)
         show figure.caption: set text(size: 14pt, fill: self.colors.neutral)
         show footnote.entry: set text(size: 12pt, fill: self.colors.neutral)
 

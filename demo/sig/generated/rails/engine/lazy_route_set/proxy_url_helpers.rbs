@@ -1,0 +1,3 @@
+module ::Rails::Engine::LazyRouteSet::ProxyUrlHelpers
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::ActionCable::Helpers::ActionCableHelper
+  extend ::Zeitwerk::ConstAdded
+end

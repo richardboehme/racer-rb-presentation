@@ -1,0 +1,5 @@
+module ::ActiveModel::Conversion
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

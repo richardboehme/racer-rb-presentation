@@ -1,0 +1,3 @@
+module ::ActiveSupport::Dependencies::RequireDependency : ::BasicObject
+  extend ::Zeitwerk::ConstAdded
+end

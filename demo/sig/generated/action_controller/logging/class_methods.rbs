@@ -1,0 +1,3 @@
+module ::ActionController::Logging::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+class ::ActiveSupport::Executor < ::ActiveSupport::ExecutionWrapper
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+end

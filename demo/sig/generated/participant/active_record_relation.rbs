@@ -1,0 +1,13 @@
+class ::Participant::ActiveRecord_Relation < ::ActiveRecord::Relation
+  extend ::ActiveRecord::Delegation::ClassSpecificRelation::ClassMethods
+
+  extend ::ActiveRecord::Delegation::ClassMethods
+
+  include ::Participant::GeneratedRelationMethods
+
+  include ::ApplicationRecord::GeneratedRelationMethods
+
+  include ::ActiveRecord::Delegation::ClassSpecificRelation
+
+  def each: (*untyped, **untyped) ?{ (?) -> untyped } -> ::Array[::Participant]
+end

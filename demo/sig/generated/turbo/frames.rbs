@@ -1,0 +1,3 @@
+module ::Turbo::Frames
+  extend ::Zeitwerk::ConstAdded
+end

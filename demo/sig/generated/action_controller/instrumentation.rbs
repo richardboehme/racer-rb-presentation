@@ -1,0 +1,5 @@
+module ::ActionController::Instrumentation
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

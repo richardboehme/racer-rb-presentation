@@ -1,0 +1,9 @@
+module ::ActionView::RecordIdentifier
+  extend ::ActionView::ModelNaming
+
+  extend ::ActionView::RecordIdentifier
+
+  extend ::ActionView::ModelNaming
+
+  include ::ActionView::ModelNaming
+end

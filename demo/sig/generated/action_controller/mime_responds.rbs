@@ -1,0 +1,3 @@
+module ::ActionController::MimeResponds
+  extend ::Zeitwerk::ConstAdded
+end

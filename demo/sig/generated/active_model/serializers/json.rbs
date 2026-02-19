@@ -1,0 +1,5 @@
+module ::ActiveModel::Serializers::JSON
+  extend ::ActiveSupport::Concern
+
+  include ::ActiveModel::Serialization
+end

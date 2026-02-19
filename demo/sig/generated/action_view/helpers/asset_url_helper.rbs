@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::AssetUrlHelper
+  extend ::Zeitwerk::ConstAdded
+end

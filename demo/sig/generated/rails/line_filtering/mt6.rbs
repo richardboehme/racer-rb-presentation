@@ -1,0 +1,3 @@
+module ::Rails::LineFiltering::MT6
+  extend ::Zeitwerk::ConstAdded
+end

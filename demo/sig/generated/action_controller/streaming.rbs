@@ -1,0 +1,3 @@
+module ::ActionController::Streaming
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActionController::Logging
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

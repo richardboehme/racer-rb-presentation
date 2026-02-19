@@ -1,0 +1,5 @@
+class ::AbstractController::Base
+  extend ::ActiveSupport::DescendantsTracker
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

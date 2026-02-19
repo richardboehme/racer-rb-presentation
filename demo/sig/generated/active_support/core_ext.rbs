@@ -1,0 +1,3 @@
+module ::ActiveSupport::CoreExt
+  extend ::Zeitwerk::ConstAdded
+end

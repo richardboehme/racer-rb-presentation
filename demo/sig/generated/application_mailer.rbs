@@ -1,0 +1,45 @@
+class ::ApplicationMailer < ::ActionMailer::Base
+  extend ::Module123898730703160
+
+  extend ::AbstractController::UrlFor::ClassMethods
+
+  extend ::ActionView::Layouts::ClassMethods
+
+  extend ::ActionView::Rendering::ClassMethods
+
+  extend ::AbstractController::Caching::ConfigMethods
+
+  extend ::AbstractController::Caching::ClassMethods
+
+  extend ::AbstractController::Caching::Fragments::ClassMethods
+
+  extend ::AbstractController::Callbacks::ClassMethods
+
+  extend ::AbstractController::Helpers::ClassMethods
+
+  extend ::AbstractController::Helpers::Resolution
+
+  extend ::ActionView::ViewPaths::ClassMethods
+
+  extend ::ActionMailer::FormBuilder::ClassMethods
+
+  extend ::ActionMailer::Previews::ClassMethods
+
+  extend ::ActionMailer::Parameterized::ClassMethods
+
+  extend ::ActionMailer::Rescuable::ClassMethods
+
+  extend ::ActiveSupport::Rescuable::ClassMethods
+
+  extend ::ActionMailer::DeliveryMethods::ClassMethods
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::ActionMailer::Callbacks::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  def self.default: (?::Hash[::Symbol, ::String] value) -> ::Hash[::Symbol, ::String | ::Array[::String]]
+
+  def self.layout: (::String layout, ?::Hash[untyped, untyped] conditions) -> ::Symbol
+end

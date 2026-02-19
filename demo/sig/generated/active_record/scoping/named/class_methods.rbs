@@ -1,0 +1,3 @@
+module ::ActiveRecord::Scoping::Named::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+class ::ActiveStorage::Attached
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

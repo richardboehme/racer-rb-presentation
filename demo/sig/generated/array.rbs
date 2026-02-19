@@ -1,0 +1,9 @@
+class ::Array[unchecked out Elem]
+  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
+
+  include ::JSON::Ext::Generator::GeneratorMethods::Array
+
+  include ::MessagePack::CoreExt
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

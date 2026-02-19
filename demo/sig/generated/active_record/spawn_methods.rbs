@@ -1,0 +1,3 @@
+module ::ActiveRecord::SpawnMethods
+  extend ::Zeitwerk::ConstAdded
+end

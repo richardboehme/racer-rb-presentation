@@ -1,0 +1,19 @@
+class ::ApplicationSystemTestCase < ::ActionDispatch::SystemTestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+end

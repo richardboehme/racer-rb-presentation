@@ -1,0 +1,3 @@
+module ::ActionDispatch::SystemTesting::TestHelpers::ScreenshotHelper
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::Oaken::Seeds
+  extend ::Oaken::Seeds
+
+  extend ::Zeitwerk::ConstAdded
+end

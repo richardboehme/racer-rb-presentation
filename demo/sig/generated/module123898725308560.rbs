@@ -1,0 +1,5 @@
+module ::Module123898725308560
+  extend ::Zeitwerk::ConstAdded
+
+  prepend ::Module123898725308400
+end

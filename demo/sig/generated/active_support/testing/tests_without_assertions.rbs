@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing::TestsWithoutAssertions
+  extend ::Zeitwerk::ConstAdded
+end

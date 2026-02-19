@@ -1,0 +1,5 @@
+module ::Turbo::Broadcastable::TestHelper
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

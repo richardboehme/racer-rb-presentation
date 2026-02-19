@@ -1,0 +1,5 @@
+module ::AbstractController::UrlFor
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

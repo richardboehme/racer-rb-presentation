@@ -1,0 +1,159 @@
+class ::Meeting < ::ApplicationRecord
+  extend ::ActiveRecord::SignedId::DeprecateSignedIdVerifierSecret
+
+  extend ::Turbo::Broadcastable::ClassMethods
+
+  extend ::ActionText::Attribute::ClassMethods
+
+  extend ::ActiveStorage::Reflection::ActiveRecordExtensions::ClassMethods
+
+  extend ::ActiveStorage::Attached::Model::ClassMethods
+
+  extend ::ActiveRecord::Suppressor::ClassMethods
+
+  extend ::ActiveRecord::SignedId::ClassMethods
+
+  extend ::ActiveRecord::TokenFor::ClassMethods
+
+  extend ::ActiveRecord::SecureToken::ClassMethods
+
+  extend ::ActiveRecord::Store::ClassMethods
+
+  extend ::ActiveRecord::Reflection::ClassMethods
+
+  extend ::ActiveRecord::NoTouching::ClassMethods
+
+  extend ::ActiveRecord::Transactions::ClassMethods
+
+  extend ::ActiveRecord::NestedAttributes::ClassMethods
+
+  extend ::ActiveRecord::AutosaveAssociation::ClassMethods
+
+  extend ::ActiveRecord::SecurePassword::ClassMethods
+
+  extend ::ActiveModel::SecurePassword::ClassMethods
+
+  extend ::ActiveRecord::Associations::ClassMethods
+
+  extend ::ActiveRecord::Timestamp::ClassMethods
+
+  extend ::ActiveRecord::Callbacks::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Serialization::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::TimeZoneConversion::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Write::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Read::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::ClassMethods
+
+  extend ::ActiveRecord::Encryption::EncryptableRecord::ClassMethods
+
+  extend ::ActiveRecord::Locking::Optimistic::ClassMethods
+
+  extend ::ActiveRecord::Attributes::ClassMethods
+
+  extend ::ActiveModel::Validations::Callbacks::ClassMethods
+
+  extend ::ActiveModel::AttributeMethods::ClassMethods
+
+  extend ::ActiveModel::Attributes::Normalization::ClassMethods
+
+  extend ::ActiveModel::AttributeRegistration::ClassMethods
+
+  extend ::ActiveRecord::CounterCache::ClassMethods
+
+  extend ::ActiveRecord::Validations::ClassMethods
+
+  extend ::ActiveRecord::Integration::ClassMethods
+
+  extend ::ActiveRecord::Sanitization::ClassMethods
+
+  extend ::ActiveRecord::Scoping::Named::ClassMethods
+
+  extend ::ActiveRecord::Scoping::Default::ClassMethods
+
+  extend ::ActiveRecord::Scoping::ClassMethods
+
+  extend ::ActiveRecord::Inheritance::ClassMethods
+
+  extend ::ActiveRecord::ModelSchema::ClassMethods
+
+  extend ::ActiveRecord::ReadonlyAttributes::ClassMethods
+
+  extend ::ActiveRecord::Persistence::ClassMethods
+
+  extend ::ActiveRecord::Core::ClassMethods
+
+  extend ::ActiveRecord::Aggregations::ClassMethods
+
+  extend ::ActiveRecord::Delegation::DelegateCache
+
+  extend ::ActiveRecord::Enum
+
+  extend ::ActiveRecord::Explain
+
+  extend ::ActiveRecord::DelegatedType
+
+  extend ::ActiveRecord::DynamicMatchers
+
+  extend ::ActiveRecord::Translation
+
+  extend ::ActiveRecord::Querying
+
+  extend ::ActiveRecord::QueryCache::ClassMethods
+
+  extend ::ActiveRecord::ConnectionHandling
+
+  extend ::ActiveSupport::Benchmarkable
+
+  extend ::ActiveModel::Conversion::ClassMethods
+
+  extend ::ActiveModel::Validations::HelperMethods
+
+  extend ::ActiveModel::Translation
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::ActiveModel::Callbacks
+
+  extend ::ActiveModel::Naming
+
+  extend ::ActiveModel::Validations::ClassMethods
+
+  def participations: () -> ::Participation::ActiveRecord_Associations_CollectionProxy
+
+  def title: () -> ::String
+
+  def held_on: () -> ::Date
+
+  def participants: () -> ::Participant::ActiveRecord_Associations_CollectionProxy
+
+  def valid?: (?nil context) -> bool
+
+  def errors: () -> ::ActiveModel::Errors
+
+  def destroy!: () -> ::Meeting
+
+  def self.has_many: (::Symbol name, ?nil scope, **::Symbol options) ?{ (?) -> untyped } -> (::Hash[::Symbol, ::ActiveRecord::Reflection::HasManyReflection] | ::Hash[::Symbol, ::ActiveRecord::Reflection::HasManyReflection | ::ActiveRecord::Reflection::ThroughReflection])
+
+  def self.validates: (*::Symbol | ::Hash[::Symbol, bool] attributes) -> ::Hash[::Symbol, bool]
+
+  def self.create!: (?::Hash[::Symbol, ::String | ::Date] attributes) ?{ (?) -> untyped } -> ::Meeting
+
+  def self.exists?: (*untyped, **untyped) ?{ (?) -> untyped } -> bool
+
+  def self.find: (*::String ids) -> ::Meeting
+
+  def self.order: (*untyped, **untyped) ?{ (?) -> untyped } -> ::Meeting::ActiveRecord_Relation
+
+  def self.new: (?::Hash[::Symbol, ::Date] attributes) ?{ (?) -> untyped } -> ::Meeting
+              | (?::Hash[::Symbol, ::String] attributes) ?{ (?) -> untyped } -> ::Meeting
+              | (?::Hash[::Symbol, ::String | ::Date] attributes) ?{ (?) -> untyped } -> ::Meeting
+end

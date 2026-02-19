@@ -1,0 +1,16 @@
+class ::Object
+  extend ::ActiveSupport::DescendantsTracker::ReloadedClassesFiltering
+
+  prepend ::ActiveSupport::Dependencies::RequireDependency
+
+  include ::PP::ObjectMixin
+
+  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
+
+  include ::JSON::Ext::Generator::GeneratorMethods::Object
+
+  include ::ActiveSupport::Tryable
+
+  def self.const_added: (::Symbol cname) -> nil
+                      | ...
+end

@@ -1,0 +1,3 @@
+module ::ActionView::Context
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActionView::Helpers::SanitizeHelper
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::ActiveSupport::Tryable : ::BasicObject
+  extend ::Zeitwerk::ConstAdded
+end

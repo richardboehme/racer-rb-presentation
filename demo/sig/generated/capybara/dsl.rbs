@@ -1,0 +1,3 @@
+module ::Capybara::DSL
+  extend ::Zeitwerk::ConstAdded
+end

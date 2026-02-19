@@ -1,0 +1,5 @@
+module ::ActionText::Attribute
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

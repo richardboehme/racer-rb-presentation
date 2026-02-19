@@ -1,0 +1,3 @@
+module ::Meeting::GeneratedRelationMethods
+  extend ::Zeitwerk::ConstAdded
+end

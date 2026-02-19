@@ -1,0 +1,5 @@
+module ::ActionController::EtagWithFlash
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

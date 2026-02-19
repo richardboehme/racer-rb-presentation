@@ -1,0 +1,5 @@
+module ::ActiveModel::Validations::Callbacks
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

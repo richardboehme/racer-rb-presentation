@@ -1,0 +1,3 @@
+module ::Zeitwerk::ConstAdded
+  extend ::Zeitwerk::ConstAdded
+end

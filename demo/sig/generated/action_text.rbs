@@ -1,0 +1,5 @@
+module ::ActionText
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

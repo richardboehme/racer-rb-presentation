@@ -1,0 +1,3 @@
+class ::ActiveRecord::Reflection::AbstractReflection
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

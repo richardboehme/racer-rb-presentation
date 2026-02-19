@@ -1,0 +1,5 @@
+module ::ActiveRecord::Encryption::Contexts
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

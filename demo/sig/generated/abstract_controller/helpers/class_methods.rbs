@@ -1,0 +1,5 @@
+module ::AbstractController::Helpers::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+
+  include ::AbstractController::Helpers::Resolution
+end

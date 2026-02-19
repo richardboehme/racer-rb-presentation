@@ -1,0 +1,5 @@
+module ::ActionDispatch::Routing::RouteSet::MountedHelpers
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

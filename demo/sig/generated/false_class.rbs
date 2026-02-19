@@ -1,0 +1,9 @@
+class ::FalseClass
+  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
+
+  include ::JSON::Ext::Generator::GeneratorMethods::FalseClass
+
+  include ::MessagePack::CoreExt
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

@@ -1,0 +1,5 @@
+module ::ActiveStorage::Attached::Model
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

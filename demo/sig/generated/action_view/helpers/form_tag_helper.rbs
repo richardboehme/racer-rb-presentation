@@ -1,0 +1,7 @@
+module ::ActionView::Helpers::FormTagHelper
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+
+  include ::ActionView::Helpers::ContentExfiltrationPreventionHelper
+end

@@ -1,0 +1,2 @@
+class ::ActiveRecord::Reflection::BelongsToReflection < ::ActiveRecord::Reflection::AssociationReflection
+end

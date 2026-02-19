@@ -1,0 +1,3 @@
+class ::PP < ::PrettyPrint
+  include ::PP::PPMethods
+end

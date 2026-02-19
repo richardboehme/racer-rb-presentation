@@ -1,0 +1,11 @@
+module ::ActionView::Helpers::TranslationHelper
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+
+  include ::ActionView::Helpers::TagHelper
+
+  include ::ActionView::Helpers::OutputSafetyHelper
+
+  include ::ActionView::Helpers::CaptureHelper
+end

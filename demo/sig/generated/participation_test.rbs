@@ -1,0 +1,53 @@
+class ::ParticipationTest < ::ActiveSupport::TestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  include ::ActiveSupport::Testing::TestsWithoutAssertions
+
+  include ::ActiveSupport::Testing::SetupAndTeardown
+
+  def meetings: () -> ::Oaken::Stored::ActiveRecord
+
+  def assert_not: (bool object, ?nil message) -> bool
+
+  def participants: () -> ::Oaken::Stored::ActiveRecord
+
+  def test_is_invalid_without_a_participant: () -> bool
+
+  def test_february_meetup_has_two_participations: () -> bool
+
+  def test_allows_the_same_participant_to_join_a_different_meeting: () -> bool
+
+  def test_belongs_to_a_participant: () -> bool
+
+  def test_prevents_duplicate_registration_for_the_same_meeting: () -> bool
+
+  def test_is_invalid_without_a_meeting: () -> bool
+
+  def test_march_meetup_has_three_participations: () -> bool
+
+  def test_allows_different_participants_in_the_same_meeting: () -> bool
+
+  def test_is_valid_with_meeting_and_participant: () -> bool
+
+  def test_there_are_eight_participations_in_total: () -> bool
+
+  def test_belongs_to_a_meeting: () -> bool
+
+  def test_january_meetup_has_three_participations: () -> bool
+end

@@ -1,0 +1,5 @@
+module ::ActiveSupport::Callbacks
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

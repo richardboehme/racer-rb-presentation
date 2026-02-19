@@ -1,0 +1,5 @@
+module ::ActionController
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

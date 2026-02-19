@@ -1,0 +1,27 @@
+class ::ActiveRecord::Relation
+  extend ::ActiveRecord::Delegation::ClassMethods
+
+  include ::ActiveRecord::SignedId::RelationMethods
+
+  include ::ActiveRecord::TokenFor::RelationMethods
+
+  include ::ActiveRecord::FinderMethods
+
+  include ::ActiveRecord::Calculations
+
+  include ::ActiveRecord::SpawnMethods
+
+  include ::ActiveRecord::QueryMethods
+
+  include ::ActiveRecord::Batches
+
+  include ::ActiveRecord::Explain
+
+  include ::ActiveRecord::Delegation
+
+  include ::Enumerable[untyped]
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  def each: () { (untyped) -> untyped } -> untyped
+end

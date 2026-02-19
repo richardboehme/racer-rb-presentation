@@ -1,0 +1,3 @@
+module ::ActiveSupport::Rescuable::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

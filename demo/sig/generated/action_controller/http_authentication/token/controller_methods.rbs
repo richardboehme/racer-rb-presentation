@@ -1,0 +1,3 @@
+module ::ActionController::HttpAuthentication::Token::ControllerMethods
+  extend ::Zeitwerk::ConstAdded
+end

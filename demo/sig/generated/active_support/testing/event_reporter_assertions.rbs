@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing::EventReporterAssertions
+  extend ::Zeitwerk::ConstAdded
+end

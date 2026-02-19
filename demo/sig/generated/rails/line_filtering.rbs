@@ -1,0 +1,3 @@
+module ::Rails::LineFiltering
+  extend ::Zeitwerk::ConstAdded
+end

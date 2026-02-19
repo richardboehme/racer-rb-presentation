@@ -1,0 +1,9 @@
+class ::Rails::Railtie
+  extend ::Rails::Initializable::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  include ::Rails::Initializable
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

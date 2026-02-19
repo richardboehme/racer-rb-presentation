@@ -1,0 +1,5 @@
+module ::ActionView::Helpers::FormHelper
+  extend ::ActiveSupport::Concern
+
+  include ::ActionView::RecordIdentifier
+end

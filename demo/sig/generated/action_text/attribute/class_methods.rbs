@@ -1,0 +1,3 @@
+module ::ActionText::Attribute::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

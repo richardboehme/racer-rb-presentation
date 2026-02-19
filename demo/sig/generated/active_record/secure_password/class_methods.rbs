@@ -1,0 +1,3 @@
+module ::ActiveRecord::SecurePassword::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

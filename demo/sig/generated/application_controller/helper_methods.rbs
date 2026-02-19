@@ -1,0 +1,5 @@
+module ::ApplicationController::HelperMethods
+  include ::ApplicationHelper
+
+  include ::ActionController::Base::HelperMethods
+end

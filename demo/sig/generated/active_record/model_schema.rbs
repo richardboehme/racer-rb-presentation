@@ -1,0 +1,5 @@
+module ::ActiveRecord::ModelSchema
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

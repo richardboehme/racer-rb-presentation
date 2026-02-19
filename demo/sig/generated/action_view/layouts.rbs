@@ -1,0 +1,5 @@
+module ::ActionView::Layouts
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

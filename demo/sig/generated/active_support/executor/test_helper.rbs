@@ -1,0 +1,3 @@
+module ::ActiveSupport::Executor::TestHelper
+  extend ::Zeitwerk::ConstAdded
+end

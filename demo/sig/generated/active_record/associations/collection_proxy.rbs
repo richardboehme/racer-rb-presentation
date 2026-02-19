@@ -1,0 +1,3 @@
+class ::ActiveRecord::Associations::CollectionProxy < ::ActiveRecord::Relation
+  extend ::ActiveRecord::Delegation::ClassMethods
+end

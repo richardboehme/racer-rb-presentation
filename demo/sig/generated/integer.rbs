@@ -1,0 +1,9 @@
+class ::Integer < ::Numeric
+  include ::ActiveSupport::NumericWithFormat
+
+  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
+
+  include ::JSON::Ext::Generator::GeneratorMethods::Integer
+
+  include ::MessagePack::CoreExt
+end

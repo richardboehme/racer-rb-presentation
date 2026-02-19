@@ -1,0 +1,3 @@
+module ::ActiveSupport::CoreExt::ERBUtilPrivate
+  include ::ActiveSupport::CoreExt::ERBUtil
+end

@@ -1,0 +1,3 @@
+module ::ActiveRecord::Locking::Pessimistic
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActionController::HttpAuthentication::Basic
+  extend ::ActionController::HttpAuthentication::Basic
+
+  extend ::Zeitwerk::ConstAdded
+end

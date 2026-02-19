@@ -1,0 +1,5 @@
+module ::ActiveModel::Attributes::Normalization
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

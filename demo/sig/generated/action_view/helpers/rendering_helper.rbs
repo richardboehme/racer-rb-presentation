@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::RenderingHelper
+  extend ::Zeitwerk::ConstAdded
+end

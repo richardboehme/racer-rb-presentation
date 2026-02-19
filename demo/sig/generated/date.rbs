@@ -1,0 +1,7 @@
+class ::Date
+  include ::DateAndTime::Calculations
+
+  include ::DateAndTime::Zones
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

@@ -1,0 +1,3 @@
+module ::Turbo::RequestIdTracking
+  extend ::ActiveSupport::Concern
+end

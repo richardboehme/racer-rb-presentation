@@ -1,0 +1,3 @@
+module ::ActionController::AllowBrowser::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

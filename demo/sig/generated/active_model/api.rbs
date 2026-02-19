@@ -1,0 +1,5 @@
+module ::ActiveModel::API
+  extend ::ActiveSupport::Concern
+
+  include ::ActiveModel::AttributeAssignment
+end

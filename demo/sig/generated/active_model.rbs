@@ -1,0 +1,5 @@
+module ::ActiveModel
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

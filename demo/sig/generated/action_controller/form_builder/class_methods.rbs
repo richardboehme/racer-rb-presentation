@@ -1,0 +1,3 @@
+module ::ActionController::FormBuilder::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

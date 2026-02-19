@@ -1,0 +1,3 @@
+module ::ActionView::ViewPaths::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

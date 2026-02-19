@@ -1,0 +1,3 @@
+module ::ActiveRecord::Validations::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

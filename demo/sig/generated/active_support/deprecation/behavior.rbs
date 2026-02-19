@@ -1,0 +1,3 @@
+module ::ActiveSupport::Deprecation::Behavior
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveRecord::Locking::Optimistic
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

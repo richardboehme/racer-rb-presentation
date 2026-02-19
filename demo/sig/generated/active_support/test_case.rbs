@@ -1,0 +1,63 @@
+class ::ActiveSupport::TestCase < ::Minitest::Test
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  prepend ::ActiveSupport::Testing::TestsWithoutAssertions
+
+  prepend ::ActiveSupport::Testing::SetupAndTeardown
+
+  include ::Oaken::Seeds
+
+  include ::Module123898725294000
+
+  include ::ActiveRecord::Assertions::QueryAssertions
+
+  include ::ActiveRecord::TestFixtures
+
+  include ::ActiveRecord::TestDatabases
+
+  include ::Turbo::Streams::StreamName
+
+  include ::ActionCable::TestHelper
+
+  include ::Turbo::Broadcastable::TestHelper
+
+  include ::Turbo::TestAssertions
+
+  include ::ActiveSupport::Executor::TestHelper
+
+  include ::ActiveSupport::Testing::FileFixtures
+
+  include ::ActiveSupport::Testing::TimeHelpers
+
+  include ::ActiveSupport::Testing::ConstantStubbing
+
+  include ::ActiveSupport::Testing::Deprecation
+
+  include ::ActiveSupport::Testing::NotificationAssertions
+
+  include ::ActiveSupport::Testing::EventReporterAssertions
+
+  include ::ActiveSupport::Testing::ErrorReporterAssertions
+
+  include ::ActiveSupport::Testing::Assertions
+
+  include ::ActiveSupport::Callbacks
+
+  include ::ActiveSupport::Testing::TaggedLogging
+end

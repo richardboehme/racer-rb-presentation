@@ -1,0 +1,5 @@
+module ::Turbo::Broadcastable
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

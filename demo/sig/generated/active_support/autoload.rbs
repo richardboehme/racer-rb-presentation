@@ -1,0 +1,3 @@
+module ::ActiveSupport::Autoload
+  extend ::Zeitwerk::ConstAdded
+end

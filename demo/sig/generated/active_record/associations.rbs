@@ -1,0 +1,7 @@
+module ::ActiveRecord::Associations
+  extend ::ActiveSupport::Concern
+
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

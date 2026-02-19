@@ -1,0 +1,5 @@
+module ::ActiveSupport::Rescuable
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

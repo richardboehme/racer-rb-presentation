@@ -1,0 +1,3 @@
+module ::PP::ObjectMixin : ::BasicObject
+  extend ::Zeitwerk::ConstAdded
+end

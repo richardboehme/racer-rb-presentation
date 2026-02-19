@@ -1,0 +1,3 @@
+module ::ActiveRecord::Delegation::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

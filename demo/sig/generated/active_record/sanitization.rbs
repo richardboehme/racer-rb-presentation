@@ -1,0 +1,5 @@
+module ::ActiveRecord::Sanitization
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

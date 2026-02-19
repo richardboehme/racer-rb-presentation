@@ -1,0 +1,5 @@
+module ::ActionController::Caching
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

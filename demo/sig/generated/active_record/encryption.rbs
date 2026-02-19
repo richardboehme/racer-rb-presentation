@@ -1,0 +1,11 @@
+module ::ActiveRecord::Encryption
+  extend ::ActiveRecord::Encryption::Contexts::ClassMethods
+
+  extend ::ActiveRecord::Encryption::Configurable::ClassMethods
+
+  extend ::ActiveSupport::Autoload
+
+  include ::ActiveRecord::Encryption::Contexts
+
+  include ::ActiveRecord::Encryption::Configurable
+end

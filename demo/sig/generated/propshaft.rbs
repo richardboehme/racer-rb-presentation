@@ -1,0 +1,3 @@
+module ::Propshaft
+  extend ::Zeitwerk::ConstAdded
+end

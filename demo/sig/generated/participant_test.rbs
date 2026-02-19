@@ -1,0 +1,55 @@
+class ::ParticipantTest < ::ActiveSupport::TestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  include ::ActiveSupport::Testing::TestsWithoutAssertions
+
+  include ::ActiveSupport::Testing::SetupAndTeardown
+
+  def participants: () -> ::Oaken::Stored::ActiveRecord
+
+  def assert_not: (bool object, ?nil message) -> bool
+
+  def test_alice_attended_the_january_and_february_meetups: () -> bool
+
+  def test_bob_attended_two_meetups: () -> bool
+
+  def test_is_invalid_without_a_name: () -> bool
+
+  def test_charlie_attended_two_meetups: () -> bool
+
+  def test_allows_different_participants_with_different_emails: () -> bool
+
+  def test_is_invalid_without_an_email: () -> bool
+
+  def test_diana_attended_two_meetups: () -> bool
+
+  def test_alice_attended_two_meetups: () -> bool
+
+  def test_is_valid_with_name_and_email: () -> bool
+
+  def test_destroying_a_participant_also_destroys_their_participations: () -> ::Array[::Integer]
+
+  def test_is_invalid_with_a_duplicate_email: () -> bool
+
+  def meetings: () -> ::Oaken::Stored::ActiveRecord
+
+  def test_alice_did_not_attend_the_march_meetup: () -> bool
+
+  def test_destroying_a_participant_does_not_destroy_the_meetings: () -> ::Array[::Integer]
+end

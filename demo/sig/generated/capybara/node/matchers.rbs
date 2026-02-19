@@ -1,0 +1,3 @@
+module ::Capybara::Node::Matchers
+  extend ::Zeitwerk::ConstAdded
+end

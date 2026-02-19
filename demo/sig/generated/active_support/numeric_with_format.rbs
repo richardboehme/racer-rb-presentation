@@ -1,0 +1,3 @@
+module ::ActiveSupport::NumericWithFormat
+  extend ::Zeitwerk::ConstAdded
+end

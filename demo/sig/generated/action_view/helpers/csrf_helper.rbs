@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::CsrfHelper
+  extend ::Zeitwerk::ConstAdded
+end

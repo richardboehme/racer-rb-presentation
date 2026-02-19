@@ -1,0 +1,35 @@
+class ::ActionDispatch::SystemTestCase < ::ActiveSupport::TestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  include ::Turbo::SystemTestHelper
+
+  include ::ActionText::SystemTestHelper
+
+  include ::ActionDispatch::SystemTesting::TestHelpers::ScreenshotHelper
+
+  include ::ActionDispatch::SystemTesting::TestHelpers::SetupAndTeardown
+
+  include ::Capybara::Minitest::Assertions
+
+  include ::Capybara::DSL
+
+  include ::ActiveSupport::Testing::TestsWithoutAssertions
+
+  include ::ActiveSupport::Testing::SetupAndTeardown
+end

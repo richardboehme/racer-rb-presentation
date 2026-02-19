@@ -1,0 +1,5 @@
+module ::ActionController::RateLimiting
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

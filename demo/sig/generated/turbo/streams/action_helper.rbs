@@ -1,0 +1,3 @@
+module ::Turbo::Streams::ActionHelper
+  include ::ActionView::Helpers::TagHelper
+end

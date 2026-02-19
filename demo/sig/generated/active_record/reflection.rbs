@@ -1,0 +1,5 @@
+module ::ActiveRecord::Reflection
+  extend ::ActiveStorage::Reflection::ReflectionExtension
+
+  extend ::ActiveSupport::Concern
+end

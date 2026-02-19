@@ -1,0 +1,3 @@
+module ::Capybara::Minitest
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::Turbo::IncludesHelper
+  extend ::Zeitwerk::ConstAdded
+end

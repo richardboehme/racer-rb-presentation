@@ -1,0 +1,5 @@
+module ::AbstractController::Helpers
+  extend ::AbstractController::Helpers::Resolution
+
+  extend ::ActiveSupport::Concern
+end

@@ -1,0 +1,3 @@
+module ::Meeting::GeneratedAssociationMethods
+  extend ::Zeitwerk::ConstAdded
+end

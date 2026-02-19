@@ -1,0 +1,5 @@
+module ::ActionController::DataStreaming
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

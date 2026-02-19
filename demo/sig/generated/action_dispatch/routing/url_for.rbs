@@ -1,0 +1,5 @@
+module ::ActionDispatch::Routing::UrlFor
+  extend ::ActiveSupport::Concern
+
+  include ::ActionDispatch::Routing::PolymorphicRoutes
+end

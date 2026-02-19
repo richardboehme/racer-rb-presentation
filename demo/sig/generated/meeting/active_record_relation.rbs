@@ -1,0 +1,13 @@
+class ::Meeting::ActiveRecord_Relation < ::ActiveRecord::Relation
+  extend ::ActiveRecord::Delegation::ClassSpecificRelation::ClassMethods
+
+  extend ::ActiveRecord::Delegation::ClassMethods
+
+  include ::Meeting::GeneratedRelationMethods
+
+  include ::ApplicationRecord::GeneratedRelationMethods
+
+  include ::ActiveRecord::Delegation::ClassSpecificRelation
+
+  def each: (*untyped, **untyped) ?{ (?) -> untyped } -> ::Array[::Meeting]
+end

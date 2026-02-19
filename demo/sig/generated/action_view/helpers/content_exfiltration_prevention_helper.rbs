@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::ContentExfiltrationPreventionHelper
+  extend ::Zeitwerk::ConstAdded
+end

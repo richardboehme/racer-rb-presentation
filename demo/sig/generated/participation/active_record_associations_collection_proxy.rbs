@@ -1,0 +1,17 @@
+class ::Participation::ActiveRecord_Associations_CollectionProxy < ::ActiveRecord::Associations::CollectionProxy
+  extend ::ActiveRecord::Delegation::ClassSpecificRelation::ClassMethods
+
+  extend ::ActiveRecord::Delegation::ClassMethods
+
+  include ::Participation::GeneratedRelationMethods
+
+  include ::ApplicationRecord::GeneratedRelationMethods
+
+  include ::ActiveRecord::Delegation::ClassSpecificRelation
+
+  def count: (?nil column_name) -> ::Integer
+
+  def first: (?nil limit) -> ::Participation
+
+  def pluck: (*::Symbol column_names) -> ::Array[::Integer]
+end

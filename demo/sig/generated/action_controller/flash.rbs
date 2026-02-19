@@ -1,0 +1,5 @@
+module ::ActionController::Flash
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

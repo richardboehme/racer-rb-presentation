@@ -1,0 +1,5 @@
+module ::ActiveModel::AttributeMethods
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

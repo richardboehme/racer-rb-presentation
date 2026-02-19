@@ -1,0 +1,5 @@
+module ::ActiveRecord::Serialization
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

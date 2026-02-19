@@ -1,0 +1,3 @@
+module ::ActionController::ImplicitRender
+  include ::ActionController::BasicImplicitRender
+end

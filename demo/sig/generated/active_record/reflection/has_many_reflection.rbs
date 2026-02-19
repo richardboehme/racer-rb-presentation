@@ -1,0 +1,2 @@
+class ::ActiveRecord::Reflection::HasManyReflection < ::ActiveRecord::Reflection::AssociationReflection
+end

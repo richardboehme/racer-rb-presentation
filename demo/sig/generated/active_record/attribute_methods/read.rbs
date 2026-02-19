@@ -1,0 +1,5 @@
+module ::ActiveRecord::AttributeMethods::Read
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

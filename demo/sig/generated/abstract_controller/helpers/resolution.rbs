@@ -1,0 +1,3 @@
+module ::AbstractController::Helpers::Resolution
+  extend ::Zeitwerk::ConstAdded
+end

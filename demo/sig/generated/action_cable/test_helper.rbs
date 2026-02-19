@@ -1,0 +1,3 @@
+module ::ActionCable::TestHelper
+  extend ::Zeitwerk::ConstAdded
+end

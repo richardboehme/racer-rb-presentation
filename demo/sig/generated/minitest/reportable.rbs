@@ -1,0 +1,3 @@
+module ::Minitest::Reportable
+  extend ::Zeitwerk::ConstAdded
+end

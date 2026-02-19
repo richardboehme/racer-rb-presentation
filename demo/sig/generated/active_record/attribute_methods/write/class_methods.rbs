@@ -1,0 +1,3 @@
+module ::ActiveRecord::AttributeMethods::Write::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

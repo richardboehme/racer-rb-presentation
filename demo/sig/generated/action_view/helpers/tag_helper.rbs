@@ -1,0 +1,7 @@
+module ::ActionView::Helpers::TagHelper
+  extend ::Zeitwerk::ConstAdded
+
+  include ::ActionView::Helpers::OutputSafetyHelper
+
+  include ::ActionView::Helpers::CaptureHelper
+end

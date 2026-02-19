@@ -1,0 +1,9 @@
+module ::ActionView::Helpers::AssetTagHelper
+  include ::ActionView::Helpers::TagHelper
+
+  include ::ActionView::Helpers::OutputSafetyHelper
+
+  include ::ActionView::Helpers::CaptureHelper
+
+  include ::ActionView::Helpers::AssetUrlHelper
+end

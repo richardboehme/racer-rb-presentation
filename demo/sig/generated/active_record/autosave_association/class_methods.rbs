@@ -1,0 +1,3 @@
+module ::ActiveRecord::AutosaveAssociation::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

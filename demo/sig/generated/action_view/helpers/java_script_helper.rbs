@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::JavaScriptHelper
+  extend ::Zeitwerk::ConstAdded
+end

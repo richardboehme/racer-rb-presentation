@@ -1,0 +1,13 @@
+module ::ActionView::Helpers::UrlHelper
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+
+  include ::ActionView::Helpers::ContentExfiltrationPreventionHelper
+
+  include ::ActionView::Helpers::TagHelper
+
+  include ::ActionView::Helpers::OutputSafetyHelper
+
+  include ::ActionView::Helpers::CaptureHelper
+end

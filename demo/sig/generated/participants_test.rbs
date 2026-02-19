@@ -1,0 +1,57 @@
+class ::ParticipantsTest < ::ApplicationSystemTestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  def participants: () -> ::Oaken::Stored::ActiveRecord
+
+  private def method_missing: (::Symbol name, *untyped, **untyped) ?{ (?) -> untyped } -> ::String
+
+  def visit: (*untyped, **untyped) ?{ (?) -> untyped } -> nil
+
+  def all: (*untyped, **untyped) ?{ (?) -> untyped } -> ::Capybara::Result
+
+  def test_participants_index_lists_all_participants_alphabetically: () -> bool
+
+  def click_on: (*untyped, **untyped) ?{ (?) -> untyped } -> ::Capybara::Node::Element
+
+  def assert_current_path: (*::String args, **untyped kwargs) ?{ (?) -> untyped } -> bool
+
+  def test_back_link_on_participant_detail_page_returns_to_participants_index: () -> bool
+
+  def assert_text: (*::String args, **untyped kwargs) ?{ (?) -> untyped } -> bool
+
+  def test_participant_detail_page_shows_their_email: () -> bool
+
+  def within: (*untyped, **untyped) ?{ (?) -> untyped } -> bool
+
+  def test_participants_index_shows_meeting_counts: () -> bool
+
+  def test_participant_detail_page_lists_attended_meetups: () -> bool
+
+  def meetings: () -> ::Oaken::Stored::ActiveRecord
+
+  def test_participant_detail_page_shows_meeting_count: () -> bool
+
+  def test_clicking_a_meeting_on_participant_page_navigates_to_meeting_detail: () -> bool
+
+  def test_clicking_a_participant_navigates_to_their_detail_page: () -> bool
+
+  def assert_no_text: (*::String args, **untyped kwargs) ?{ (?) -> untyped } -> bool
+
+  def test_participant_detail_page_does_not_list_unattended_meetups: () -> bool
+end

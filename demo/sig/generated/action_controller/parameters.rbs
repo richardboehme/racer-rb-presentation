@@ -1,0 +1,7 @@
+class ::ActionController::Parameters
+  include ::ActiveSupport::DeepMergeable
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  def []: (::Symbol key) -> ::String
+end

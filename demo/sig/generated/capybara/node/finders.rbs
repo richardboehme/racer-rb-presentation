@@ -1,0 +1,3 @@
+module ::Capybara::Node::Finders
+  extend ::Zeitwerk::ConstAdded
+end

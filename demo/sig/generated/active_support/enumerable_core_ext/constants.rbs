@@ -1,0 +1,3 @@
+module ::ActiveSupport::EnumerableCoreExt::Constants
+  extend ::Zeitwerk::ConstAdded
+end

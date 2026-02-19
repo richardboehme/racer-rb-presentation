@@ -1,0 +1,5 @@
+module ::AbstractController::AssetPaths
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

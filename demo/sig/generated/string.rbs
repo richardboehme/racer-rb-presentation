@@ -1,0 +1,9 @@
+class ::String
+  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
+
+  include ::JSON::Ext::Generator::GeneratorMethods::String
+
+  include ::MessagePack::CoreExt
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

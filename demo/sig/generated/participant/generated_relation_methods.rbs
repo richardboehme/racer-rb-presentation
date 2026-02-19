@@ -1,0 +1,3 @@
+module ::Participant::GeneratedRelationMethods
+  extend ::Zeitwerk::ConstAdded
+end

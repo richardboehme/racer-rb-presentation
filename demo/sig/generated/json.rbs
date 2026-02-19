@@ -1,0 +1,3 @@
+module ::JSON
+  extend ::Zeitwerk::ConstAdded
+end

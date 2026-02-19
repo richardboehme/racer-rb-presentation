@@ -1,0 +1,5 @@
+module ::ActionMailer::QueuedDelivery
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::ActiveRecord::Base::GeneratedAttributeMethods
+  extend ::Zeitwerk::ConstAdded
+end

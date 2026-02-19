@@ -1,0 +1,5 @@
+module ::ActiveRecord::Callbacks
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

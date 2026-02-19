@@ -1,0 +1,3 @@
+module ::ActiveSupport::DescendantsTracker::ReloadedClassesFiltering
+  extend ::Zeitwerk::ConstAdded
+end

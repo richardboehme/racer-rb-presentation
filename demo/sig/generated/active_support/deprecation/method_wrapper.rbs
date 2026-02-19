@@ -1,0 +1,3 @@
+module ::ActiveSupport::Deprecation::MethodWrapper
+  extend ::Zeitwerk::ConstAdded
+end

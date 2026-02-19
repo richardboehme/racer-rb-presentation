@@ -1,0 +1,7 @@
+module ::ActiveRecord::AttributeMethods
+  extend ::ActiveSupport::Autoload
+
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

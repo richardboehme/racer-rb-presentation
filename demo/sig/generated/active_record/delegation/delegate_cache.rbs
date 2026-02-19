@@ -1,0 +1,3 @@
+module ::ActiveRecord::Delegation::DelegateCache
+  extend ::Zeitwerk::ConstAdded
+end

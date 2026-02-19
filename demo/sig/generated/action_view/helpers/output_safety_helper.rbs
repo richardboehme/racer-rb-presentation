@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::OutputSafetyHelper
+  extend ::Zeitwerk::ConstAdded
+end

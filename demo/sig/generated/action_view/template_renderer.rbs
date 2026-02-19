@@ -1,0 +1,2 @@
+class ::ActionView::TemplateRenderer < ::ActionView::AbstractRenderer
+end

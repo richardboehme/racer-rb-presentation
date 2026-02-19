@@ -1,0 +1,3 @@
+module ::Turbo::StreamsHelper
+  extend ::Zeitwerk::ConstAdded
+end

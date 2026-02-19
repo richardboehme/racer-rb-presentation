@@ -1,0 +1,3 @@
+module ::ActiveRecord::AttributeMethods::Serialization::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

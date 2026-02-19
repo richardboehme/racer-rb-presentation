@@ -1,0 +1,5 @@
+class ::Minitest::Test < ::Minitest::Runnable
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  include ::Minitest::Parallel::Test
+end

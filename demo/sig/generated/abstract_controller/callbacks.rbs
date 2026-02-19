@@ -1,0 +1,5 @@
+module ::AbstractController::Callbacks
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

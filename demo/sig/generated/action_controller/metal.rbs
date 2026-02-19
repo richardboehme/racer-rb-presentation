@@ -1,0 +1,3 @@
+class ::ActionController::Metal < ::AbstractController::Base
+  extend ::ActiveSupport::DescendantsTracker
+end

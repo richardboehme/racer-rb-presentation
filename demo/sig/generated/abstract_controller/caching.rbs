@@ -1,0 +1,7 @@
+module ::AbstractController::Caching
+  extend ::ActiveSupport::Autoload
+
+  extend ::ActiveSupport::Concern
+
+  include ::AbstractController::Caching::ConfigMethods
+end

@@ -1,0 +1,5 @@
+module ::ActionController::Rendering
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveRecord::Store
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

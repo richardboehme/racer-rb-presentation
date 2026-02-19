@@ -1,0 +1,3 @@
+module ::Kernel
+  extend ::Zeitwerk::ConstAdded
+end

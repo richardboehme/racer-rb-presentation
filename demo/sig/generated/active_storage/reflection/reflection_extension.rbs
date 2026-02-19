@@ -1,0 +1,3 @@
+module ::ActiveStorage::Reflection::ReflectionExtension
+  extend ::Zeitwerk::ConstAdded
+end

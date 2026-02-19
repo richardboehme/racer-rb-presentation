@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing::SetupAndTeardown
+  extend ::Zeitwerk::ConstAdded
+end

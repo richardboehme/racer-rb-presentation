@@ -1,0 +1,3 @@
+module ::Turbo::Streams::TurboStreamsTagBuilder
+  extend ::Zeitwerk::ConstAdded
+end

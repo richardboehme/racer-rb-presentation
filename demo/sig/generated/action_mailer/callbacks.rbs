@@ -1,0 +1,5 @@
+module ::ActionMailer::Callbacks
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

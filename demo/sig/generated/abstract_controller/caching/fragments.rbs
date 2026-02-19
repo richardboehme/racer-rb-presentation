@@ -1,0 +1,5 @@
+module ::AbstractController::Caching::Fragments
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

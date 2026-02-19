@@ -1,0 +1,7 @@
+module ::ActionView::Helpers::FormOptionsHelper
+  extend ::ActionView::Helpers::SanitizeHelper::ClassMethods
+
+  include ::ActionView::Helpers::TextHelper
+
+  include ::ActionView::Helpers::SanitizeHelper
+end

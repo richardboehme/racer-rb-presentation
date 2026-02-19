@@ -1,0 +1,3 @@
+module ::Participation::GeneratedAssociationMethods
+  extend ::Zeitwerk::ConstAdded
+end

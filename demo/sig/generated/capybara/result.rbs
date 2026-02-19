@@ -1,0 +1,9 @@
+class ::Capybara::Result
+  extend ::Forwardable
+
+  include ::Enumerable[untyped]
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  def each: () { (untyped) -> untyped } -> untyped
+end

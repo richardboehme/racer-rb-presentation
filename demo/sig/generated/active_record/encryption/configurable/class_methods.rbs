@@ -1,0 +1,3 @@
+module ::ActiveRecord::Encryption::Configurable::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

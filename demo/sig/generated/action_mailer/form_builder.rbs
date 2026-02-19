@@ -1,0 +1,5 @@
+module ::ActionMailer::FormBuilder
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveStorage::Reflection::ActiveRecordExtensions
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

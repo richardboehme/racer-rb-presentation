@@ -1,0 +1,3 @@
+module ::ActionController::StrongParameters
+  extend ::Zeitwerk::ConstAdded
+end

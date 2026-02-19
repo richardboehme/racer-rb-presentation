@@ -1,0 +1,3 @@
+module ::Comparable
+  extend ::Zeitwerk::ConstAdded
+end

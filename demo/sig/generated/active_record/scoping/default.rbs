@@ -1,0 +1,5 @@
+module ::ActiveRecord::Scoping::Default
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

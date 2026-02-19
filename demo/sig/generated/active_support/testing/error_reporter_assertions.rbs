@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing::ErrorReporterAssertions
+  extend ::Zeitwerk::ConstAdded
+end

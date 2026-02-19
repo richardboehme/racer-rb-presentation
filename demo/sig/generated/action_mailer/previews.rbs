@@ -1,0 +1,5 @@
+module ::ActionMailer::Previews
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

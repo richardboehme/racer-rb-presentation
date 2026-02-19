@@ -1,0 +1,3 @@
+module ::ActionController::Railties::Helpers
+  extend ::Zeitwerk::ConstAdded
+end

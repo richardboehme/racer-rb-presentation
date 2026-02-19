@@ -1,0 +1,3 @@
+module ::ActiveRecord::SignedId::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

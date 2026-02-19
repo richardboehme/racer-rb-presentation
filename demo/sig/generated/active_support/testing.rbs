@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing
+  extend ::Zeitwerk::ConstAdded
+end

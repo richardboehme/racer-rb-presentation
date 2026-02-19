@@ -1,0 +1,3 @@
+module ::ActiveRecord::TouchLater
+  extend ::Zeitwerk::ConstAdded
+end

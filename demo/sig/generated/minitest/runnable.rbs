@@ -1,0 +1,3 @@
+class ::Minitest::Runnable
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

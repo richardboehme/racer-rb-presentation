@@ -1,0 +1,3 @@
+module ::ActiveRecord::Aggregations
+  extend ::Zeitwerk::ConstAdded
+end

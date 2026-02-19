@@ -1,0 +1,5 @@
+module ::Turbo::TestAssertions
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

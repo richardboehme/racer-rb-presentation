@@ -1,0 +1,5 @@
+module ::Turbo::Frames::FrameRequest
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

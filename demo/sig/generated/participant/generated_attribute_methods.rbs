@@ -1,0 +1,3 @@
+module ::Participant::GeneratedAttributeMethods
+  extend ::Zeitwerk::ConstAdded
+end

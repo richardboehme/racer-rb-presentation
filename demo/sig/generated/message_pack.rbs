@@ -1,0 +1,3 @@
+module ::MessagePack
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveModel::Serializers
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

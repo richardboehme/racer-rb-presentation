@@ -1,0 +1,3 @@
+module ::Capybara
+  extend ::Capybara::DSL
+end

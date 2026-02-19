@@ -1,0 +1,5 @@
+module ::ActionController::Rescue
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

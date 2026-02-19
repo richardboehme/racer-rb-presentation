@@ -1,0 +1,3 @@
+module ::ActionText::ContentHelper
+  extend ::Zeitwerk::ConstAdded
+end

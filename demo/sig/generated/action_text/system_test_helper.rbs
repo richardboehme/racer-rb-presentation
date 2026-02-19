@@ -1,0 +1,3 @@
+module ::ActionText::SystemTestHelper
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::JSON::Ext::Generator
+  extend ::Zeitwerk::ConstAdded
+end

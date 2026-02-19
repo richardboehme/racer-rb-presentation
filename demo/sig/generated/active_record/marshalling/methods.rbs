@@ -1,0 +1,3 @@
+module ::ActiveRecord::Marshalling::Methods
+  extend ::Zeitwerk::ConstAdded
+end

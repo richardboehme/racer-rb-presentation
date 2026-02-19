@@ -1,0 +1,9 @@
+class ::ActiveSupport::ExecutionWrapper
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  include ::ActiveSupport::Callbacks
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

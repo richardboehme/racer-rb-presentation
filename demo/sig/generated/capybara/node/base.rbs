@@ -1,0 +1,9 @@
+class ::Capybara::Node::Base
+  include ::Capybara::Node::Matchers
+
+  include ::Capybara::Node::Actions
+
+  include ::Capybara::Node::Finders
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

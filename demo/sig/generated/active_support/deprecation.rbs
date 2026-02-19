@@ -1,0 +1,11 @@
+class ::ActiveSupport::Deprecation
+  include ::ActiveSupport::Deprecation::MethodWrapper
+
+  include ::ActiveSupport::Deprecation::Disallowed
+
+  include ::ActiveSupport::Deprecation::Reporting
+
+  include ::ActiveSupport::Deprecation::Behavior
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

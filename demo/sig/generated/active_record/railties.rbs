@@ -1,0 +1,3 @@
+module ::ActiveRecord::Railties
+  extend ::Zeitwerk::ConstAdded
+end

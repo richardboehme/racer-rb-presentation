@@ -1,0 +1,3 @@
+module ::ActionDispatch::SystemTesting
+  extend ::Zeitwerk::ConstAdded
+end

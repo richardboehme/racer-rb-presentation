@@ -1,0 +1,181 @@
+class ::ActionController::Base < ::ActionController::Metal
+  extend ::ActionController::Renderers::DeprecatedEscapeJsonResponses
+
+  extend ::ActiveRecord::Railties::ControllerRuntime::ClassMethods
+
+  extend ::ActionController::Railties::Helpers
+
+  extend ::Module123898729945920
+
+  extend ::Importmap::Freshness
+
+  extend ::ActionController::ParamsWrapper::ClassMethods
+
+  extend ::ActionController::Instrumentation::ClassMethods
+
+  extend ::ActionController::Rescue::ClassMethods
+
+  extend ::ActiveSupport::Rescuable::ClassMethods
+
+  extend ::ActionController::Logging::ClassMethods
+
+  extend ::ActionController::DefaultHeaders::ClassMethods
+
+  extend ::ActionController::HttpAuthentication::Basic::ControllerMethods::ClassMethods
+
+  extend ::ActionController::AllowBrowser::ClassMethods
+
+  extend ::ActionController::RateLimiting::ClassMethods
+
+  extend ::ActionController::PermissionsPolicy::ClassMethods
+
+  extend ::ActionController::ContentSecurityPolicy::ClassMethods
+
+  extend ::ActionController::RequestForgeryProtection::ClassMethods
+
+  extend ::AbstractController::Callbacks::ClassMethods
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::ActionController::FormBuilder::ClassMethods
+
+  extend ::ActionController::Flash::ClassMethods
+
+  extend ::ActionController::ParameterEncoding::ClassMethods
+
+  extend ::AbstractController::Caching::ClassMethods
+
+  extend ::AbstractController::Caching::Fragments::ClassMethods
+
+  extend ::ActionController::ConditionalGet::ClassMethods
+
+  extend ::ActionController::Renderers::ClassMethods
+
+  extend ::ActionController::Rendering::ClassMethods
+
+  extend ::ActionView::Layouts::ClassMethods
+
+  extend ::ActionView::Rendering::ClassMethods
+
+  extend ::ActionController::Redirecting::ClassMethods
+
+  extend ::AbstractController::UrlFor::ClassMethods
+
+  extend ::ActionController::Helpers::ClassMethods
+
+  extend ::AbstractController::Helpers::ClassMethods
+
+  extend ::ActionView::ViewPaths::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  include ::Turbo::RequestIdTracking
+
+  include ::ActiveRecord::Railties::ControllerRuntime
+
+  include ::ActionDispatch::Routing::RouteSet::MountedHelpers
+
+  include ::Turbo::Streams::TurboStreamsTagBuilder
+
+  include ::Turbo::Frames::FrameRequest
+
+  include ::Turbo::Native::Navigation
+
+  include ::ActionController::ParamsWrapper
+
+  include ::ActionController::Instrumentation
+
+  include ::ActionController::Rescue
+
+  include ::ActiveSupport::Rescuable
+
+  include ::ActionController::Logging
+
+  include ::ActionController::DefaultHeaders
+
+  include ::ActionController::HttpAuthentication::Token::ControllerMethods
+
+  include ::ActionController::HttpAuthentication::Digest::ControllerMethods
+
+  include ::ActionController::HttpAuthentication::Basic::ControllerMethods
+
+  include ::ActionController::DataStreaming
+
+  include ::ActionController::Streaming
+
+  include ::ActionController::AllowBrowser
+
+  include ::ActionController::RateLimiting
+
+  include ::ActionController::PermissionsPolicy
+
+  include ::ActionController::ContentSecurityPolicy
+
+  include ::ActionController::RequestForgeryProtection
+
+  include ::AbstractController::Callbacks
+
+  include ::ActiveSupport::Callbacks
+
+  include ::ActionController::FormBuilder
+
+  include ::ActionController::Flash
+
+  include ::ActionController::Cookies
+
+  include ::ActionController::ParameterEncoding
+
+  include ::ActionController::StrongParameters
+
+  include ::ActionController::ImplicitRender
+
+  include ::ActionController::MimeResponds
+
+  include ::AbstractController::Caching
+
+  include ::AbstractController::Caching::Fragments
+
+  include ::ActionController::Caching
+
+  include ::ActionController::EtagWithFlash
+
+  include ::ActionController::EtagWithTemplateDigest
+
+  include ::ActionController::ConditionalGet
+
+  include ::ActionController::Renderers::All
+
+  include ::ActionController::Renderers
+
+  include ::ActionController::Rendering
+
+  include ::ActionView::Layouts
+
+  include ::ActionView::Rendering
+
+  include ::ActionController::Redirecting
+
+  include ::ActiveSupport::Benchmarkable
+
+  include ::AbstractController::Logger
+
+  include ::ActionController::UrlFor
+
+  include ::AbstractController::UrlFor
+
+  include ::ActionDispatch::Routing::UrlFor
+
+  include ::ActionController::Helpers
+
+  include ::AbstractController::Helpers
+
+  include ::AbstractController::AssetPaths
+
+  include ::AbstractController::Translation
+
+  include ::AbstractController::Rendering
+
+  include ::ActionView::ViewPaths
+
+  def self.inherited: (singleton(::ApplicationController) klass) -> nil
+end

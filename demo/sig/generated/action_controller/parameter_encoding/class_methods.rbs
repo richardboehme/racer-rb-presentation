@@ -1,0 +1,3 @@
+module ::ActionController::ParameterEncoding::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

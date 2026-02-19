@@ -1,0 +1,51 @@
+class ::MeetingTest < ::ActiveSupport::TestCase
+  extend ::ActiveRecord::TestFixtures::ClassMethods
+
+  extend ::Rails::LineFiltering::MT6
+
+  extend ::Rails::LineFiltering
+
+  extend ::ActiveSupport::Testing::Declarative
+
+  extend ::ActiveSupport::Testing::SetupAndTeardown::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Minitest::Parallel::Test::ClassMethods
+
+  extend ::Minitest::Guard
+
+  include ::ActiveSupport::Testing::TestsWithoutAssertions
+
+  include ::ActiveSupport::Testing::SetupAndTeardown
+
+  def assert_not: (bool object, ?nil message) -> bool
+
+  def test_is_invalid_without_a_title: () -> bool
+
+  def meetings: () -> ::Oaken::Stored::ActiveRecord
+
+  def participants: () -> ::Oaken::Stored::ActiveRecord
+
+  def test_january_meetup_does_not_include_diana: () -> bool
+
+  def test_is_valid_with_title_and_held_on: () -> bool
+
+  def test_is_invalid_without_held_on: () -> bool
+
+  def test_participants_are_reachable_through_through_association: () -> bool
+
+  def test_destroying_a_meeting_does_not_destroy_the_participants_themselves: () -> ::Array[::Integer]
+
+  def test_destroying_a_meeting_also_destroys_its_participations: () -> ::Array[::Integer]
+
+  def test_march_meetup_has_three_participants: () -> bool
+
+  def test_january_meetup_includes_alice: () -> bool
+
+  def test_february_meetup_has_two_participants: () -> bool
+
+  def test_january_meetup_has_three_participants: () -> bool
+end

@@ -1,0 +1,5 @@
+module ::Turbo::Native::Navigation
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

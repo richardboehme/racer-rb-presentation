@@ -1,0 +1,3 @@
+module ::ActionController::Renderers::DeprecatedEscapeJsonResponses
+  extend ::Zeitwerk::ConstAdded
+end

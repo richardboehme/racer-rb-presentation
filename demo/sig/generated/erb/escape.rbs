@@ -1,0 +1,3 @@
+module ::ERB::Escape
+  extend ::Zeitwerk::ConstAdded
+end

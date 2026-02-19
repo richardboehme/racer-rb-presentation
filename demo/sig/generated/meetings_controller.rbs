@@ -1,0 +1,83 @@
+class ::MeetingsController < ::ApplicationController
+  extend ::ActionController::Renderers::DeprecatedEscapeJsonResponses
+
+  extend ::ActiveRecord::Railties::ControllerRuntime::ClassMethods
+
+  extend ::ActionController::Railties::Helpers
+
+  extend ::Module123898729945920
+
+  extend ::Importmap::Freshness
+
+  extend ::ActionController::ParamsWrapper::ClassMethods
+
+  extend ::ActionController::Instrumentation::ClassMethods
+
+  extend ::ActionController::Rescue::ClassMethods
+
+  extend ::ActiveSupport::Rescuable::ClassMethods
+
+  extend ::ActionController::Logging::ClassMethods
+
+  extend ::ActionController::DefaultHeaders::ClassMethods
+
+  extend ::ActionController::HttpAuthentication::Basic::ControllerMethods::ClassMethods
+
+  extend ::ActionController::AllowBrowser::ClassMethods
+
+  extend ::ActionController::RateLimiting::ClassMethods
+
+  extend ::ActionController::PermissionsPolicy::ClassMethods
+
+  extend ::ActionController::ContentSecurityPolicy::ClassMethods
+
+  extend ::ActionController::RequestForgeryProtection::ClassMethods
+
+  extend ::AbstractController::Callbacks::ClassMethods
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::ActionController::FormBuilder::ClassMethods
+
+  extend ::ActionController::Flash::ClassMethods
+
+  extend ::ActionController::ParameterEncoding::ClassMethods
+
+  extend ::AbstractController::Caching::ConfigMethods
+
+  extend ::AbstractController::Caching::ClassMethods
+
+  extend ::AbstractController::Caching::Fragments::ClassMethods
+
+  extend ::ActionController::ConditionalGet::ClassMethods
+
+  extend ::ActionController::Renderers::ClassMethods
+
+  extend ::ActionController::Rendering::ClassMethods
+
+  extend ::ActionView::Layouts::ClassMethods
+
+  extend ::ActionView::Rendering::ClassMethods
+
+  extend ::ActionController::Redirecting::ClassMethods
+
+  extend ::AbstractController::UrlFor::ClassMethods
+
+  extend ::ActionController::Helpers::ClassMethods
+
+  extend ::AbstractController::Helpers::ClassMethods
+
+  extend ::AbstractController::Helpers::Resolution
+
+  extend ::ActionView::ViewPaths::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  def params: () -> ::ActionController::Parameters
+
+  def show: () -> ::Meeting
+
+  def index: () -> ::Meeting::ActiveRecord_Relation
+
+  def self.method_added: (::Symbol name) -> nil
+end

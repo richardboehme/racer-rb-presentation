@@ -1,0 +1,3 @@
+module ::ActionMailer::FormBuilder::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

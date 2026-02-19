@@ -1,0 +1,3 @@
+module ::ActiveSupport::Testing::TaggedLogging
+  extend ::Zeitwerk::ConstAdded
+end

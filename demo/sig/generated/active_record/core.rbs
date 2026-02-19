@@ -1,0 +1,5 @@
+module ::ActiveRecord::Core
+  extend ::ActiveSupport::Concern
+
+  include ::ActiveModel::Access
+end

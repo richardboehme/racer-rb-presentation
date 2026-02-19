@@ -1,0 +1,5 @@
+module ::ActionMailer
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveSupport
+  extend ::ActiveSupport::Autoload
+
+  extend ::ActiveSupport::LazyLoadHooks
+end

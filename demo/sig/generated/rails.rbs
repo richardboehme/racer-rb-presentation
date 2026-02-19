@@ -1,0 +1,7 @@
+module ::Rails
+  extend ::ActiveSupport::Benchmarkable
+
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

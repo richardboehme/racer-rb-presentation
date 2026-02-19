@@ -1,0 +1,5 @@
+module ::ActionView
+  extend ::ActiveSupport::Autoload
+
+  extend ::Zeitwerk::ConstAdded
+end

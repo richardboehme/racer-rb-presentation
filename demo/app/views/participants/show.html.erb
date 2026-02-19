@@ -1,0 +1,12 @@
+<h1><%= @participant.name %></h1>
+<p><%= @participant.email %></p>
+
+<h2>Meetings attended (<%= @participant.meetings.count %>)</h2>
+
+<ul>
+  <% @participant.meetings.order(held_on: :desc).each do |meeting| %>
+    <li><%= link_to meeting.title, meeting %></li>
+  <% end %>
+</ul>
+
+<%= link_to "All participants", participants_path %>

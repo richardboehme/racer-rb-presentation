@@ -1,0 +1,3 @@
+class ::ActiveRecord::QueryCache
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

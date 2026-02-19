@@ -1,0 +1,2 @@
+class ::Capybara::Node::Element < ::Capybara::Node::Base
+end

@@ -1,0 +1,3 @@
+module ::ActiveSupport::DescendantsTracker
+  extend ::Zeitwerk::ConstAdded
+end

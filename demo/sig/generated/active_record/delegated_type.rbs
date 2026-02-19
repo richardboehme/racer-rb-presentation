@@ -1,0 +1,3 @@
+module ::ActiveRecord::DelegatedType
+  extend ::Zeitwerk::ConstAdded
+end

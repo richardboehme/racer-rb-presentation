@@ -1,0 +1,3 @@
+module ::ActiveRecord::Aggregations::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

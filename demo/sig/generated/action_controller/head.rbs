@@ -1,0 +1,3 @@
+module ::ActionController::Head
+  extend ::Zeitwerk::ConstAdded
+end

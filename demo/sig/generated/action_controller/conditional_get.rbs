@@ -1,0 +1,5 @@
+module ::ActionController::ConditionalGet
+  extend ::ActiveSupport::Concern
+
+  include ::ActionController::Head
+end

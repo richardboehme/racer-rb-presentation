@@ -1,0 +1,10 @@
+<h1>Participants</h1>
+
+<ul>
+  <% @participants.each do |participant| %>
+    <li>
+      <%= link_to participant.name, participant %>
+      <span>(<%= participant.meetings.count %> meetings)</span>
+    </li>
+  <% end %>
+</ul>

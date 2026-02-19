@@ -1,0 +1,3 @@
+module ::ActiveSupport::CoreExt::ERBUtil
+  extend ::Zeitwerk::ConstAdded
+end

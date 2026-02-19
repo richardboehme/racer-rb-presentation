@@ -1,0 +1,3 @@
+module ::ActionView::ModelNaming
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,5 @@
+module ::ActiveModel::AttributeRegistration
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

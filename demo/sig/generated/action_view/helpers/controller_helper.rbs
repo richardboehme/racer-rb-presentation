@@ -1,0 +1,3 @@
+module ::ActionView::Helpers::ControllerHelper
+  extend ::Zeitwerk::ConstAdded
+end

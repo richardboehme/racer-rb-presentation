@@ -1,0 +1,255 @@
+class ::ActiveRecord::Base
+  extend ::ActiveRecord::SignedId::DeprecateSignedIdVerifierSecret
+
+  extend ::Turbo::Broadcastable::ClassMethods
+
+  extend ::ActionText::Attribute::ClassMethods
+
+  extend ::ActiveStorage::Reflection::ActiveRecordExtensions::ClassMethods
+
+  extend ::ActiveStorage::Attached::Model::ClassMethods
+
+  extend ::ActiveRecord::Suppressor::ClassMethods
+
+  extend ::ActiveRecord::SignedId::ClassMethods
+
+  extend ::ActiveRecord::TokenFor::ClassMethods
+
+  extend ::ActiveRecord::SecureToken::ClassMethods
+
+  extend ::ActiveRecord::Store::ClassMethods
+
+  extend ::ActiveRecord::Reflection::ClassMethods
+
+  extend ::ActiveRecord::NoTouching::ClassMethods
+
+  extend ::ActiveRecord::Transactions::ClassMethods
+
+  extend ::ActiveRecord::NestedAttributes::ClassMethods
+
+  extend ::ActiveRecord::AutosaveAssociation::ClassMethods
+
+  extend ::ActiveRecord::SecurePassword::ClassMethods
+
+  extend ::ActiveModel::SecurePassword::ClassMethods
+
+  extend ::ActiveRecord::Associations::ClassMethods
+
+  extend ::ActiveRecord::Timestamp::ClassMethods
+
+  extend ::ActiveRecord::Callbacks::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Serialization::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::TimeZoneConversion::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Write::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::Read::ClassMethods
+
+  extend ::ActiveRecord::AttributeMethods::ClassMethods
+
+  extend ::ActiveRecord::Encryption::EncryptableRecord::ClassMethods
+
+  extend ::ActiveRecord::Locking::Optimistic::ClassMethods
+
+  extend ::ActiveRecord::Attributes::ClassMethods
+
+  extend ::ActiveModel::Validations::Callbacks::ClassMethods
+
+  extend ::ActiveModel::AttributeMethods::ClassMethods
+
+  extend ::ActiveModel::Attributes::Normalization::ClassMethods
+
+  extend ::ActiveModel::AttributeRegistration::ClassMethods
+
+  extend ::ActiveRecord::CounterCache::ClassMethods
+
+  extend ::ActiveRecord::Validations::ClassMethods
+
+  extend ::ActiveRecord::Integration::ClassMethods
+
+  extend ::ActiveRecord::Sanitization::ClassMethods
+
+  extend ::ActiveRecord::Scoping::Named::ClassMethods
+
+  extend ::ActiveRecord::Scoping::Default::ClassMethods
+
+  extend ::ActiveRecord::Scoping::ClassMethods
+
+  extend ::ActiveRecord::Inheritance::ClassMethods
+
+  extend ::ActiveRecord::ModelSchema::ClassMethods
+
+  extend ::ActiveRecord::ReadonlyAttributes::ClassMethods
+
+  extend ::ActiveRecord::Persistence::ClassMethods
+
+  extend ::ActiveRecord::Core::ClassMethods
+
+  extend ::ActiveRecord::Aggregations::ClassMethods
+
+  extend ::ActiveRecord::Delegation::DelegateCache
+
+  extend ::ActiveRecord::Enum
+
+  extend ::ActiveRecord::Explain
+
+  extend ::ActiveRecord::DelegatedType
+
+  extend ::ActiveRecord::DynamicMatchers
+
+  extend ::ActiveRecord::Translation
+
+  extend ::ActiveRecord::Querying
+
+  extend ::ActiveRecord::QueryCache::ClassMethods
+
+  extend ::ActiveRecord::ConnectionHandling
+
+  extend ::ActiveSupport::Benchmarkable
+
+  extend ::ActiveModel::Conversion::ClassMethods
+
+  extend ::ActiveModel::Validations::HelperMethods
+
+  extend ::ActiveModel::Translation
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::ActiveModel::Validations::ClassMethods
+
+  prepend ::ActionText::Encryption
+
+  include ::Turbo::Broadcastable
+
+  include ::ActionText::Attribute
+
+  include ::ActiveStorage::Reflection::ActiveRecordExtensions
+
+  include ::ActiveStorage::Attached::Model
+
+  include ::GlobalID::Identification
+
+  include ::ActiveRecord::Marshalling::Methods
+
+  include ::ActiveRecord::Suppressor
+
+  include ::ActiveRecord::SignedId
+
+  include ::ActiveRecord::TokenFor
+
+  include ::ActiveRecord::SecureToken
+
+  include ::ActiveRecord::Store
+
+  include ::ActiveRecord::Serialization
+
+  include ::ActiveModel::Serializers::JSON
+
+  include ::ActiveRecord::Reflection
+
+  include ::ActiveRecord::NoTouching
+
+  include ::ActiveRecord::TouchLater
+
+  include ::ActiveRecord::Transactions
+
+  include ::ActiveRecord::NestedAttributes
+
+  include ::ActiveRecord::AutosaveAssociation
+
+  include ::ActiveRecord::SecurePassword
+
+  include ::ActiveModel::SecurePassword
+
+  include ::ActiveRecord::Associations
+
+  include ::ActiveRecord::Timestamp
+
+  include ::ActiveRecord::Callbacks
+
+  include ::ActiveRecord::AttributeMethods::Serialization
+
+  include ::ActiveRecord::AttributeMethods::Dirty
+
+  include ::ActiveRecord::AttributeMethods::TimeZoneConversion
+
+  include ::ActiveRecord::AttributeMethods::PrimaryKey
+
+  include ::ActiveRecord::AttributeMethods::Query
+
+  include ::ActiveRecord::AttributeMethods::BeforeTypeCast
+
+  include ::ActiveRecord::AttributeMethods::Write
+
+  include ::ActiveRecord::AttributeMethods::Read
+
+  include ::ActiveRecord::Base::GeneratedAssociationMethods
+
+  include ::ActiveRecord::Base::GeneratedAttributeMethods
+
+  include ::ActiveRecord::AttributeMethods
+
+  include ::ActiveRecord::Encryption::EncryptableRecord
+
+  include ::ActiveRecord::Locking::Pessimistic
+
+  include ::ActiveRecord::Locking::Optimistic
+
+  include ::ActiveRecord::Attributes
+
+  include ::ActiveModel::Validations::Callbacks
+
+  include ::ActiveModel::Dirty
+
+  include ::ActiveModel::AttributeMethods
+
+  include ::ActiveModel::Attributes::Normalization
+
+  include ::ActiveModel::AttributeRegistration
+
+  include ::ActiveRecord::CounterCache
+
+  include ::ActiveRecord::Validations
+
+  include ::ActiveRecord::Integration
+
+  include ::ActiveRecord::AttributeAssignment
+
+  include ::ActiveRecord::Sanitization
+
+  include ::ActiveRecord::Scoping::Named
+
+  include ::ActiveRecord::Scoping::Default
+
+  include ::ActiveRecord::Scoping
+
+  include ::ActiveRecord::Inheritance
+
+  include ::ActiveRecord::ModelSchema
+
+  include ::ActiveRecord::ReadonlyAttributes
+
+  include ::ActiveRecord::Persistence
+
+  include ::ActiveRecord::Core
+
+  include ::ActiveModel::API
+
+  include ::ActiveModel::Conversion
+
+  include ::ActiveModel::Validations::HelperMethods
+
+  include ::ActiveSupport::Callbacks
+
+  include ::ActiveModel::Validations
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  private def self.inherited: (singleton(::ApplicationRecord) subclass) -> nil
+end

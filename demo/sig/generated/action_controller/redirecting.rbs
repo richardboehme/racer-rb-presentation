@@ -1,0 +1,5 @@
+module ::ActionController::Redirecting
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

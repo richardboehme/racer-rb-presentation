@@ -1,0 +1,3 @@
+module ::ActiveRecord::ConnectionHandling
+  extend ::Zeitwerk::ConstAdded
+end

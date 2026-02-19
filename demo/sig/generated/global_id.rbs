@@ -1,0 +1,5 @@
+class ::GlobalID
+  extend ::ActiveSupport::Autoload
+
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

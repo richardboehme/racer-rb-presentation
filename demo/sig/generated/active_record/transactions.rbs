@@ -1,0 +1,5 @@
+module ::ActiveRecord::Transactions
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::Capybara::Node::Actions
+  extend ::Zeitwerk::ConstAdded
+end

@@ -157,15 +157,41 @@ end
 - Ruby's official type signature language since Ruby 3
 - type checker and other tools are maintained by the community (not official)
 - types only in separate `.rbs` files
+- not widely adopted but language standard and actively worked on
 
 #v(1em)
 
 ```rbs
-class Foo
-  def main: (String name) -> Integer
+def main: (String name) -> Integer
+```
+
+#pagebreak()
+
+=== RBS Inline
+
+- pretty new development of an inline variant of RBS
+- experimental support by the Sorbet Type checker
+- conversion to RBS files possible
+- Shopfiy migrated most of their open source work suggesting heavy investments by them
+- still being worked on, not all syntax supported
+
+#v(1em)
+
+```ruby
+#: (String name) -> Integer
+def main(name)
+  puts "Hello, #{name}!"
+  name.length
 end
 ```
 
+== Racer.rb - Ruby Runtime Tracer
+
+- built for my master thesis in 2025
+- generates RBS signature files from runtime code execution
+- integrates with test frameworks to generates types from your test runs
+- supports Rails's test parallelization
+- tested in our company's largest Rails code base with over 170k LOC
 
 == Demo
 

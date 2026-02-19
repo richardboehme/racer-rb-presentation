@@ -1,0 +1,9 @@
+module ::ERB::Util
+  extend ::ActiveSupport::CoreExt::ERBUtil
+
+  prepend ::ActiveSupport::CoreExt::ERBUtilPrivate
+
+  prepend ::ActiveSupport::CoreExt::ERBUtil
+
+  include ::ERB::Escape
+end

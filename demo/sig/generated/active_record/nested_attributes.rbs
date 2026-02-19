@@ -1,0 +1,5 @@
+module ::ActiveRecord::NestedAttributes
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,3 @@
+module ::ActionController::PermissionsPolicy::ClassMethods
+  extend ::Zeitwerk::ConstAdded
+end

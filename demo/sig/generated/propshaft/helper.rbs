@@ -1,0 +1,3 @@
+module ::Propshaft::Helper
+  extend ::Zeitwerk::ConstAdded
+end

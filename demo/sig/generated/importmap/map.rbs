@@ -1,0 +1,3 @@
+class ::Importmap::Map
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

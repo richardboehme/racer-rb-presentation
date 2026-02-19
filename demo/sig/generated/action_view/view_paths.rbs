@@ -1,0 +1,5 @@
+module ::ActionView::ViewPaths
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

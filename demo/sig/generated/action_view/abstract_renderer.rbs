@@ -1,0 +1,3 @@
+class ::ActionView::AbstractRenderer
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

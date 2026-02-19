@@ -1,0 +1,3 @@
+module ::ActiveRecord::TestDatabases
+  extend ::Zeitwerk::ConstAdded
+end

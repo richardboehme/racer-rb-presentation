@@ -1,0 +1,9 @@
+class ::Rails::Engine < ::Rails::Railtie
+  extend ::ActiveSupport::Callbacks::ClassMethods
+
+  extend ::Rails::Initializable::ClassMethods
+
+  extend ::ActiveSupport::DescendantsTracker
+
+  include ::ActiveSupport::Callbacks
+end

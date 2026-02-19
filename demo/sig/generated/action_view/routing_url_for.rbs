@@ -1,0 +1,7 @@
+module ::ActionView::RoutingUrlFor
+  extend ::Zeitwerk::ConstAdded
+
+  include ::ActionDispatch::Routing::UrlFor
+
+  include ::ActionDispatch::Routing::PolymorphicRoutes
+end

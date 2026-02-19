@@ -1,0 +1,5 @@
+module ::ActiveRecord::Timestamp
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

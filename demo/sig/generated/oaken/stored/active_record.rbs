@@ -1,0 +1,17 @@
+class ::Oaken::Stored::ActiveRecord
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  def dresdenrb_feb: () -> ::Meeting
+
+  def dresdenrb_jan: () -> ::Meeting
+
+  def alice: () -> ::Participant
+
+  def dresdenrb_mar: () -> ::Meeting
+
+  def bob: () -> ::Participant
+
+  def charlie: () -> ::Participant
+
+  def diana: () -> ::Participant
+end

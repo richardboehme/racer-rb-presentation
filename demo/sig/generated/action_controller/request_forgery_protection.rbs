@@ -1,0 +1,5 @@
+module ::ActionController::RequestForgeryProtection
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

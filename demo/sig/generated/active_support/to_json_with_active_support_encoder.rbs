@@ -1,0 +1,3 @@
+module ::ActiveSupport::ToJsonWithActiveSupportEncoder : ::BasicObject
+  extend ::Zeitwerk::ConstAdded
+end

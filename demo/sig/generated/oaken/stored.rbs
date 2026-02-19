@@ -1,0 +1,3 @@
+module ::Oaken::Stored
+  extend ::Zeitwerk::ConstAdded
+end

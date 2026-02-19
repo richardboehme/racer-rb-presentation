@@ -1,0 +1,3 @@
+module ::ActiveSupport::Benchmarkable
+  extend ::Zeitwerk::ConstAdded
+end

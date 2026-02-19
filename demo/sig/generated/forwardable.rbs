@@ -1,0 +1,3 @@
+module ::Forwardable
+  extend ::Zeitwerk::ConstAdded
+end

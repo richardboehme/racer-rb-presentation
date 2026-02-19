@@ -1,0 +1,2 @@
+class ::ActiveRecord::Reflection::ThroughReflection < ::ActiveRecord::Reflection::AbstractReflection
+end

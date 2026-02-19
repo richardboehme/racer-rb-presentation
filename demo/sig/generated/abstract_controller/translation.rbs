@@ -1,0 +1,3 @@
+module ::AbstractController::Translation
+  extend ::Zeitwerk::ConstAdded
+end

@@ -1,0 +1,10 @@
+class ::ActionView::OutputBuffer
+  include ::ActiveSupport::Dependencies::RequireDependency
+
+  def safe_concat: (::String value) -> ::ActionView::OutputBuffer
+
+  def <<: (::ActiveSupport::SafeBuffer value) -> ::ActionView::OutputBuffer
+        | (::Integer value) -> ::ActionView::OutputBuffer
+        | (::String value) -> ::ActionView::OutputBuffer
+        | (nil value) -> ::ActionView::OutputBuffer
+end

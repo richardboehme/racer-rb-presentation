@@ -1,0 +1,3 @@
+class ::ActionDispatch::Routing::RouteSet
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

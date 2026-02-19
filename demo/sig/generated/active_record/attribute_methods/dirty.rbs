@@ -1,0 +1,5 @@
+module ::ActiveRecord::AttributeMethods::Dirty
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

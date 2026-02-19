@@ -1,0 +1,3 @@
+module ::ActionText::Encryption
+  extend ::Zeitwerk::ConstAdded
+end

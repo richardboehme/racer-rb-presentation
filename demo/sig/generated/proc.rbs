@@ -1,0 +1,3 @@
+class ::Proc
+  include ::ActiveSupport::Dependencies::RequireDependency
+end

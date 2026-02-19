@@ -1,0 +1,5 @@
+module ::ActiveSupport::Testing::FileFixtures
+  extend ::ActiveSupport::Concern
+
+  extend ::Zeitwerk::ConstAdded
+end

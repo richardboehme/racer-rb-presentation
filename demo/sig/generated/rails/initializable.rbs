@@ -1,0 +1,3 @@
+module ::Rails::Initializable
+  extend ::Zeitwerk::ConstAdded
+end

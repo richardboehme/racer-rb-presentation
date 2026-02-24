@@ -1,0 +1,5 @@
+module ::Module137340215818440
+  include ::ActionText::TagHelper
+
+  include ::ActionText::ContentHelper
+end

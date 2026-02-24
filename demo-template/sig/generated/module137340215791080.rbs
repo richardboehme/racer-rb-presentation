@@ -1,0 +1,3 @@
+module ::Module137340215791080
+  extend ::Zeitwerk::ConstAdded
+end

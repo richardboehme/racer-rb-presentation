@@ -1,0 +1,11 @@
+module ::Module137340215696760
+  include ::Turbo::Streams::ActionHelper
+
+  include ::Turbo::StreamsHelper
+
+  include ::Turbo::IncludesHelper
+
+  include ::Turbo::FramesHelper
+
+  include ::Turbo::DriveHelper
+end

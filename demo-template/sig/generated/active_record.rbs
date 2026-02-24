@@ -1,0 +1,7 @@
+module ::ActiveRecord
+  extend ::Module137340251936080
+
+  extend ::ActiveSupport::Autoload
+
+  include ::ActiveSupport::Deprecation::DeprecatedConstantAccessor
+end

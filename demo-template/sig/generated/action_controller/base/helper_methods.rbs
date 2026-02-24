@@ -1,0 +1,7 @@
+module ::ActionController::Base::HelperMethods
+  include ::Importmap::ImportmapTagsHelper
+
+  include ::Module137340215818440
+
+  include ::Module137340215696760
+end

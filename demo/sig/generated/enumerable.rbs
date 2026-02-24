@@ -1,5 +1,0 @@
-module ::Enumerable[unchecked out Elem] : BasicObject
-  extend ::ActiveSupport::EnumerableCoreExt::Constants
-
-  include ::ActiveSupport::ToJsonWithActiveSupportEncoder
-end

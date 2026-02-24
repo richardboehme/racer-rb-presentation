@@ -1,0 +1,5 @@
+class ::ActionView::Base137340208043120 < ::ActionView::Base
+  extend ::ActionView::Helpers::SanitizeHelper::ClassMethods
+
+  extend ::ActionView::Helpers::UrlHelper::ClassMethods
+end

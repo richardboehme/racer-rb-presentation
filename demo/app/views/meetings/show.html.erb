@@ -1,0 +1,12 @@
+<h1><%= @meeting.title %></h1>
+<p><%= @meeting.held_on.strftime("%B %-d, %Y") %></p>
+
+<h2>Participants (<%= @meeting.participants.count %>)</h2>
+
+<ul>
+  <% @meeting.participants.order(:name).each do |participant| %>
+    <li><%= link_to participant.name, participant %></li>
+  <% end %>
+</ul>
+
+<%= link_to "All meetings", meetings_path %>

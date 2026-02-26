@@ -1,0 +1,42 @@
+D = Steep::Diagnostic
+
+target :app do
+  signature "sig"
+  check "app"
+  check "lib"
+  check "test"
+  check "db/seeds"
+
+  # Add all libraries that you are using (see https://stdgems.org/ for an overview)
+  library "cgi"
+  library "date"
+  library "delegate"
+  library "did_you_mean"
+  library "digest"
+  library "erb"
+  library "fileutils"
+  library "forwardable"
+  library "json"
+  library "logger"
+  library "net-http"
+  library "net-protocol"
+  library "openssl"
+  library "pathname"
+  library "psych"
+  library "securerandom"
+  library "singleton"
+  library "stringio"
+  library "tempfile"
+  library "time"
+  library "tmpdir"
+  library "uri"
+  library "yaml"
+
+  library "base64"
+  library "bigdecimal"
+  library "csv"
+  library "minitest"
+
+  # Silent diagnostics prevent errors in your IDE to focus on type hints and completion
+  configure_code_diagnostics(D::Ruby.silent)
+end

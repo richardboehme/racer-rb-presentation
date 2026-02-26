@@ -46,6 +46,7 @@
   repeat: auto,
   setting: body => body,
   composer: auto,
+  background: none,
   ..bodies,
 ) = touying-slide-wrapper(self => {
   let footer(self) = pad(left: -0.5in, default-footer(self))
@@ -55,6 +56,7 @@
     config-page(
       footer: footer,
       footer-descent: 0.05in,
+      background: background,
     ),
     config-common(subslide-preamble: block(
       below: header-below,

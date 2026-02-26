@@ -1,0 +1,3 @@
+class ActiveSupport::TestCase
+  def self.test: (String name) { () [self: instance] -> untyped } -> untyped
+end

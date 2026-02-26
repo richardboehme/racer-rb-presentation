@@ -66,5 +66,4 @@ group :test do
 end
 
 gem "oaken", "~> 1.0"
-gem "racer-rb"
 gem "steep"

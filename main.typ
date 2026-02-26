@@ -258,7 +258,16 @@ Schema:
   - I want to show you how to use the library
   - For the demo I built a small Rails app to manage user group meetings and participants with the schema that you can see here
   - I also used oaken to generate test data for those models
-  - TODO: was genau zeige ich
+  - open demo app
+  - show Rails app and oaken seeds
+  - open meeting test -> currently untyped
+  - install Racer gem
+  - require racer/minitest in test_helper
+  - run tests
+  - look into signatures
+  - comment in tests.rbs and explain
+  - show meetingtest -> now has proper types
+  - show limitations -> no generics/wrong types
 ]
 
 == How does it work?
@@ -427,16 +436,7 @@ end
   - more configuration: Currently manual configuration is hard and the default config is made for rails apps only
 ]
 
-#slide()[
-  ==
-  #text(size: 35pt, weight: "semibold")[
-    Thank you for your attention!
-  ]
-  \
-  #text(size: 25pt)[
-    Any questions or feedback?
-  ]
-
+#let background = [
   #place(
     top + left,
     polygon(
@@ -461,9 +461,21 @@ end
   #place(
     top + end,
     dx: -0.8in,
-    dy: 1.53in,
+    dy: 2.4in,
     image("cd/logo/Logo_Dresdenrb_Outline_1c_w.svg", width: 3in),
   )
+]
+
+#slide(background: background)[
+  ==
+  #v(3em)
+  #text(size: 35pt, weight: "semibold")[
+    Thank you for your attention!
+  ]
+  \
+  #text(size: 25pt)[
+    Any questions or feedback?
+  ]
 ]
 
 == Fun with Ruby-weirdnesses

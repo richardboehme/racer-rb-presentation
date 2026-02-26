@@ -1,0 +1,10 @@
+<h1>Meetings</h1>
+
+<ul>
+  <% @meetings.each do |meeting| %>
+    <li>
+      <%= link_to meeting.title, meeting %>
+      <span>(<%= meeting.held_on.strftime("%B %-d, %Y") %> &mdash; <%= meeting.participants.count %> participants)</span>
+    </li>
+  <% end %>
+</ul>
